@@ -1,0 +1,54 @@
+CNN:
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1
+         0   3   1
+         1 303 943
+                                         
+               Accuracy : 0.7568         
+                 95% CI : (0.732, 0.7804)
+    No Information Rate : 0.7552         
+    P-Value [Acc > NIR] : 0.4629         
+                                         
+                  Kappa : 0.0131         
+ Mcnemar's Test P-Value : <2e-16         
+                                         
+            Sensitivity : 0.009804       
+            Specificity : 0.998941       
+         Pos Pred Value : 0.750000       
+         Neg Pred Value : 0.756822       
+             Prevalence : 0.244800       
+         Detection Rate : 0.002400       
+   Detection Prevalence : 0.003200       
+      Balanced Accuracy : 0.504372       
+                                         
+       'Positive' Class : 0
+	   
+DBN:   
+	   
+	   Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1
+         0 117  43
+         1 195 895
+                                         
+               Accuracy : 0.8096         
+                 95% CI : (0.7867, 0.831)
+    No Information Rate : 0.7504         
+    P-Value [Acc > NIR] : 3.879e-07      
+                                         
+                  Kappa : 0.3931         
+ Mcnemar's Test P-Value : < 2.2e-16      
+                                         
+            Sensitivity : 0.3750         
+            Specificity : 0.9542         
+         Pos Pred Value : 0.7313         
+         Neg Pred Value : 0.8211         
+             Prevalence : 0.2496         
+         Detection Rate : 0.0936         
+   Detection Prevalence : 0.1280         
+      Balanced Accuracy : 0.6646         
+                                         
+       'Positive' Class : 0 
